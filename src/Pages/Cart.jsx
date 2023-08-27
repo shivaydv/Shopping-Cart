@@ -7,8 +7,8 @@ export default function Cart() {
     useCartContext();
 
   return (
-    <div className={`flex max-md:flex-col  container mx-auto h-screen  `}>
-      <section className="md:w-3/4 md:h-[90vh]  p-6 w-full overflow-y-scroll">
+    <div className={`flex max-md:flex-col  container mx-auto min-h-screen  `}>
+      <section className="md:w-3/4  h-[90vh]  p-6 w-full overflow-y-scroll">
         <h1 className="text-2xl font-bold w-full text-center pb-3">
           Your Cart
         </h1>
